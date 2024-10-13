@@ -6,6 +6,7 @@ class ExampleInput {
     public static void Input() throws Exception {
         boolean l1 = true;
         boolean l2 = true;
+        System.out.println("Введите выражение: ");
 
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
@@ -13,6 +14,7 @@ class ExampleInput {
         String a = words[0];
         Main.x = words[1];
         String b = words[2];
+
 
         if (words.length == 3) {
             String[] arab = new String[]{"10", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
